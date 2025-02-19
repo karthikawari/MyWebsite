@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+}
+
+/* navigation bar */
+.navBar{
+    height: 100px;
+    justify-content: space-evenly;
+    background-color:steelblue;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navLog{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.logo{
+    height: 98px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("mainlogo.png");
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2.5px  solid rgb(196, 160, 63);
+}
+
+.hov:hover{
+    background:rgb(244, 154, 45);
+    transition: .5s;
+}
+.add1{
+color: black;
+font-size: 1rem;
+margin-left: 14px;
+
+}
+.add2{
+color: black;
+font-size: 1.5rem;
+margin-left: 2px;
+}
+
+.DeliverIcon{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    width: 750px;
+    height: 60px;
+    border-radius: 20px;
+    align-items: center;
+}
+.optionsBar{
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+.inputBox{
+    border-radius: 20px;
+    width:80%;
+    font-size: 1.5rem;
+    border: none;
+    height: 50px;
+}
+
+.searchIcon{
+    justify-self:center;
+    align-items: center;
+}
+
+.chooseLang{
+    justify-content: space-evenly;
+    justify-self:center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 70px;
+}
+
+.LangDisplay{
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    width: 75px;
+    height: 35px;
+    font-size:1rem;
+
+}
+
+.cart{
+    justify-content: space-evenly;
+    justify-self:center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 70px;
+}
+
+.cartButton{
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    width: 75px;
+    height: 35px;
+    font-size:1rem;
+}
+
+.ProfileSection{
+    justify-content: space-evenly;
+    justify-self:center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 70px;
+}
+
+.ProfileOptions{
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    width: 75px;
+    height: 35px;
+    font-size:1rem;
+}
+
+/* 2nd panel */
+.panel2{
+    background-color: rgb(157, 188, 214);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.panel-All{
+    display: flex;
+    width: 70px;
+    height: 30px;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.alloptions{
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+
+.allbuttons{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    justify-self:center;
+    align-items: center;
+
+}
+.newButton1{
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1rem;
+}
+.newButton2{
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1rem;
+}
+.newButton3{
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1rem;
+}
+.newButton4{
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1rem;
+}
+.newButton5{
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1rem;
+}
+
+/* hero section */
+
+.herosection{
+    height: 400px;
+    background-size: cover;
+    background-image: url(hero.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heromsg{
+    background-color: rgb(181, 144, 117);
+    height: 30px;
+    width: 97%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin: 55px;
+}
+
+.heromsg a {
+    color: rgb(0, 126, 237);
+}
+
+.ShoppingSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(168,236,244)
+}
+
+.box{
+    border-radius: 10px;
+    background-color: white;
+    height: 450px;
+    border: 2px solid black;
+    width: 22%;
+    padding: 15px 0px 15px;
+    margin-top: 10px;
+}
+
+.boxContent{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box1pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.box2pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.box3pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box4pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box5pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box6pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box7pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box8pic{
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boxContent p{
+    color: rgb(0, 126, 237);
+}
+
+/* footer */
+
+.linksSection{
+    padding: 15px 10px 15px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.833);
+    height: 200px;
+    display: flex;
+}
+.socialMedia{
+    align-items: flex-start;
+    width: 20%;
+    height:100px;
+    padding-left: 20px;
+}
+.supportSection{
+    padding-left: 58px;
+}
+.icons{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.icons i{
+    color:black;
+    font-size: 2rem;
+}
+
+.icons i:hover{
+    color: bisque;
+}
+.aboutuspart{
+    width: 50%;
+    align-items: flex-end;
+    padding-left: 10px;
+}
+
+.helpsection{
+    color: bisque;
+}
+
+.helpsection a {
+    color:black;
+    font-size: large;
+}
+
+.helpsection a:hover{
+    color:bisque;
+}
+
+.contact1{
+    padding-left: 30px;
+}
+
+.contact1 a{
+    color: black;
+    font-size: large;
+}
+
+.contact1 a:hover{
+    color: bisque;
+}
+
